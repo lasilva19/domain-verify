@@ -124,7 +124,6 @@ elif (SUFIXO == "us"):
     MES = int(commands.getoutput("whois "+DOMINIO+"| grep 'Registry Expiry Date' | cut -c28-29"))
     DIA = int(commands.getoutput("whois "+DOMINIO+" | grep 'Registry Expiry Date' | cut -c31-32"))
 
-# O elif abaixo é exclusivo para os domínios *.as. No caso da MaxMilhas, no domínio maxtrip.as taxa de registro vence em 23 de Janeiro de cada ano
 elif (SUFIXO == "as"):
     ANO_ATUAL = int(commands.getoutput("date +%Y"))
     ANO_VENCIMENTO = ANO_ATUAL+1
