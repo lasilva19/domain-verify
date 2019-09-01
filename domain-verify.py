@@ -131,7 +131,6 @@ elif (SUFIXO == "as"):
     MES = 1
     DIA = 23
 
-
 EXPIRACAO = datetime.datetime( ANO, MES, DIA)
 HOJE = datetime.datetime.today()
 RESULTADO = EXPIRACAO - HOJE
