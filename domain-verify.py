@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Autor: Luciano Silva
 
 import datetime
 import commands
