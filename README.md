@@ -2,6 +2,8 @@
 
 Este script foi desenvolvido em Python e tem como finalidade informar quantos dias restantes um domínio tem de validade.
 
+Funciona com os domínios terminados com os sufixos: com,br,cl,ai,app,biz,bo,ca,club,co,info,io,me,mo,mx,net,online,org,travel,us e as
+
 # Requisito: 
   Ter o Python3 instalado
 
