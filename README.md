@@ -1,6 +1,6 @@
 # Script para verificar a validade de um domínio
 
-Esse script foi desenvolvido em Python e tem como finalidade informar quantos dias restantes um domínio tem de validade.
+Este script foi desenvolvido em Python e tem como finalidade informar quantos dias restantes um domínio tem de validade.
 
 # Requisito: 
   Ter o Python3 instalado
