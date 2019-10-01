@@ -5,6 +5,6 @@ Este script foi desenvolvido em Python e tem como finalidade informar quantos di
 # Requisito: 
   Ter o Python3 instalado
 
-# Execução via terminal Linux
+# Execução via linha de comando no Linux
 
 > domain-verify.py dominio (onde "dominio" é o domínio do qual você   deseja verificar a validade, exemplo: google.com)
