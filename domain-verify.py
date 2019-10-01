@@ -60,11 +60,6 @@ elif (SUFIXO == "club"):
     MES = int(commands.getoutput("whois "+DOMINIO+"| grep 'Registry Expiry Date' | cut -c28-29"))
     DIA = int(commands.getoutput("whois "+DOMINIO+" | grep 'Registry Expiry Date' | cut -c31-32"))
 
-elif (SUFIXO == "biz"):
-    ANO = int(commands.getoutput("whois "+DOMINIO+" | grep 'Registry Expiry Date' | cut -c23-26"))
-    MES = int(commands.getoutput("whois "+DOMINIO+"| grep 'Registry Expiry Date' | cut -c28-29"))
-    DIA = int(commands.getoutput("whois "+DOMINIO+" | grep 'Registry Expiry Date' | cut -c31-32"))
-
 elif (SUFIXO == "co"):
     ANO = int(commands.getoutput("whois "+DOMINIO+" | grep 'Registry Expiry Date' | cut -c23-26"))
     MES = int(commands.getoutput("whois "+DOMINIO+"| grep 'Registry Expiry Date' | cut -c28-29"))
